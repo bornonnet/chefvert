@@ -1,0 +1,198 @@
+/*
+Theme Name: Chef Vert Child
+Theme URI: http://chefvert.com/
+Template: chef-vert
+Author: Chef Vert
+Author URI: http://chefvert.com/
+Description: a theme for my greens...
+Tags: microgreens,healthy,organic
+Version: 2.1.1618007648
+Updated: 2021-04-09 18:34:08
+
+*/
+
+.q_price_table .price_table_inner {
+    background-color: #fff;
+}
+
+
+
+.tm-quantity input.tm-qty {
+  width: 45px;
+  height: 32px;
+  line-height: 1.65;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
+  font-size: 20px;
+  
+}
+.tm-quantity input.tm-qty[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+.woocommerce .product h1.product_title {
+	font-family: Amatic SC;
+	}
+
+.single_add_to_cart_button {
+	margin: 10px 0 !important;
+}
+.tm-epo-variation-section .reset_variations {
+	display:none !important;
+}
+
+
+.price_in_column {
+    text-align: center;
+    position:fixed; 
+    padding-left: 10px;
+}
+
+.price_in_column .price {
+    font-size: 77px;
+    line-height: 77px;
+    font-weight: 700;
+    font-family: 'Amatic SC', sans-serif;
+    color: #000;
+}
+.price_in_column .value {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 600;
+    font-family: 'Amatic SC', sans-serif;
+    vertical-align: top;
+    position: relative;
+    top: 0px;
+}
+.price_in_column .change {
+    vertical-align: top;
+    position: relative;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    top: 0px;
+}
+.price_in_column .before {
+    vertical-align: bottom;
+    position: relative;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
+    font-family: 'Amatic SC', sans-serif;
+    position: relative;
+    bottom: 0;
+    left: 8px;
+}
+.price_in_column .mark {
+    vertical-align: bottom;
+    position: relative;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 300;
+    bottom: 0;
+    left: -28px;
+}
+
+.qbutton, .qbutton.medium {
+    border-color: #92c928 !important;
+}
+
+.price-tabs  .tabs-nav {
+    background-color: #fff;
+}
+
+.price-tabs .q_tabs .tabs-nav li a {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    margin: 0;
+    padding: 0px 14px !important;
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+} 
+
+
+.price-tabs .tabs-nav li.active a {
+    color: #fff;
+    background-color: #92c928;
+    padding: 0 14px !important;
+}
+.price-tabs .tabs-nav li a:hover {
+    color: #e89372 !important;
+}
+
+.price-tabs .tabs-nav li.active a:hover {
+    color: #fff !important;
+}
+
+
+
+
+
+.tm-extra-product-options .select-greens .radio_image, .tm-extra-product-options .select-greens .checkbox_image {
+    border: 1px solid transparent;
+    display: inline-block !important;
+    height: auto;
+    width: auto;
+    margin: auto;
+    max-width: 100%;
+    padding: 8px;
+    background-color: #fff;
+    pointer-events: none !important;
+    vertical-align: middle;
+    border-radius: 100%;
+}
+.tm-extra-product-options .select-greens .tmcp-field-wrap.tc-active .tc-label-wrap img.radio_image.round, .tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap img.checkbox_image.round, .tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap .tmhexcolorimage.radio_image.round, .tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap .tmhexcolorimage.checkbox_image.round {
+    border-radius: 100%;
+    border-width: 2px;
+    box-shadow: none;
+}
+
+
+.tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap img.radio_image, .tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap img.checkbox_image, .tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap .tmhexcolorimage.radio_image, .tm-extra-product-options .tmcp-field-wrap.tc-active .tc-label-wrap .tmhexcolorimage.checkbox_image {
+    border-color: #92c927;
+}
+
+.tm-extra-product-options .select-greens ul.tmcp-elements.use_images_container li.tmcp-field-wrap, .tm-extra-product-options ul.tmcp-elements li.tmcp-field-wrap.tc-mode-images {
+    padding: 1em 1em 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.choose_plan ul.tmcp-elements li.tmcp-field-wrap {
+    padding: 0 5px 0 0 !important;
+    margin: 0;
+    width: 100%;
+    float: left;
+    list-style: none outside none !important;
+    position: relative;
+}
+.choose_plan .radio_image {
+    border: 1px solid #93C83E !important;
+    background-color: #fff !important;
+    display: inline-block !important;
+    height: auto;
+    width: 100% !important;
+    margin: 0 !important;
+    max-width: 100%;
+    padding: 0 10px !important;
+    pointer-events: none !important;
+    vertical-align: middle;
+}
+.choose_plan .tmcp-field-wrap.tc-active .tc-label-wrap .tmhexcolorimage.radio_image.round {
+    border-radius: 0 !important;
+    background-color: #93C83E !important;
+}
